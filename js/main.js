@@ -12,7 +12,7 @@
   function onScroll() {
     const y = window.scrollY;
     if (nav) {
-      if (y > lastY && y > 120) {
+      if (window.innerWidth > 900 && y > lastY && y > 120) {
         nav.classList.add('is-hidden');
         nav.classList.remove('is-open');
       } else {
