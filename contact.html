@@ -103,6 +103,7 @@
         <div class="form-field">
           <label for="cf-division">Division</label>
           <select id="cf-division" name="division">
+            <option>Careers / General</option>
             <option>PSM Solutions</option>
             <option>PSM Lab</option>
             <option>PSM Edits</option>
@@ -125,10 +126,53 @@
 </section>
 
 <script>
-document.getElementById('contactForm').addEventListener('submit', function(e){
-  e.preventDefault();
-  document.getElementById('cf-status').textContent = "Thanks — this is a demo form. Connect it to your backend or a form service (e.g. Formspree) to receive submissions.";
-});
+(function () {
+  const form = document.getElementById('contactForm');
+  const status = document.getElementById('cf-status');
+  const divisionField = document.getElementById('cf-division');
+  const subjectField = document.getElementById('cf-subject');
+  const messageField = document.getElementById('cf-message');
+  const params = new URLSearchParams(window.location.search);
+  const role = params.get('role');
+  const division = params.get('division');
+
+  if (division) {
+    const option = Array.from(divisionField.options).find((item) => item.textContent === division);
+    if (option) {
+      divisionField.value = option.value;
+    }
+  }
+
+  if (role) {
+    subjectField.value = `Career application: ${role}`;
+    if (!messageField.value) {
+      messageField.value = `Hi PSM team,\n\nI am interested in the ${role} role. Please review my application and let me know the next steps.\n\nName:\nEmail:\nExperience / portfolio:\n`;
+    }
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('cf-name').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const divisionValue = divisionField.value.trim();
+    const subjectValue = subjectField.value.trim() || 'New message from the PSM website';
+    const messageValue = messageField.value.trim();
+
+    const lines = [
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Division: ${divisionValue}`,
+      `Subject: ${subjectValue}`,
+      '',
+      messageValue,
+    ];
+
+    const mailto = `mailto:problemsolvingminds@gmail.com?subject=${encodeURIComponent(subjectValue)}&body=${encodeURIComponent(lines.join('\n'))}`;
+    status.textContent = 'Opening your email client so you can send the message to problemsolvingminds@gmail.com.';
+    window.location.href = mailto;
+  });
+})();
 </script>
 
 <footer class="site-footer">

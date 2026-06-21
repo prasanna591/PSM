@@ -241,12 +241,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--line);
+  
+  border-radius: 20px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 @media (max-width: 768px) { .impact-strip { grid-template-columns: repeat(2, 1fr); } }
 .impact-cell {
-  background: var(--navy-deep);
+  background: var(transparent);
   padding: 48px 24px;
   text-align: center;
 }
