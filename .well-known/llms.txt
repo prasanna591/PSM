@@ -1,0 +1,321 @@
+# Problem Solving Mind (PSM)
+
+Problem Solving Mind (PSM) is an innovation-driven technology ecosystem focused on solving real-world challenges through software, artificial intelligence, education, and creativity.
+
+Founded by Prasanna Venkatesan and Maniyarasan, PSM operates through three specialized divisions:
+
+1. PSM Solutions – Product & Technology Company
+2. PSM Lab – Learning & Innovation Platform
+3. PSM Edits – Creative Media & Branding Studio
+
+Mission:
+"Solving Problems. Building Solutions. Creating Impact."
+
+Website:
+https://www.problemsolvingmind.com
+
+Country:
+India
+
+Status:
+Active
+
+--------------------------------------------------
+COMPANY OVERVIEW
+--------------------------------------------------
+
+PSM is a technology-first ecosystem that develops digital products, intelligent software solutions, educational initiatives, and creative services.
+
+The ecosystem combines innovation, engineering, learning, and design to create meaningful impact for businesses and individuals.
+
+Core Focus Areas:
+
+- Software Development
+- Artificial Intelligence
+- Web Applications
+- Mobile Applications
+- SaaS Products
+- Business Automation
+- Digital Learning
+- Creative Branding
+
+--------------------------------------------------
+PSM SOLUTIONS
+--------------------------------------------------
+
+Type:
+Product & Technology Company
+
+Overview:
+
+PSM Solutions is the technology arm of Problem Solving Mind.
+
+The company focuses on building scalable digital products while also delivering custom software solutions for startups, businesses, and enterprises.
+
+Primary Services:
+
+- Web Development
+- Mobile App Development
+- AI Solutions
+- AI Agents
+- Chatbots
+- CRM Systems
+- SaaS Platforms
+- Business Automation
+- Custom Software Development
+- API Development
+
+Technology Stack:
+
+Frontend:
+- React
+- Next.js
+- Flutter
+- React Native
+
+Backend:
+- Node.js
+- Firebase
+- REST APIs
+
+Artificial Intelligence:
+- GPT Integration
+- LLM Solutions
+- RAG Systems
+- Multi-Agent Systems
+- AI Automation
+
+Automation:
+- n8n
+- Zapier
+- Make
+- Custom Workflow Automation
+
+--------------------------------------------------
+PRODUCTS
+--------------------------------------------------
+
+Business OS (Working Title)
+
+Description:
+An all-in-one business operating system designed to help organizations manage operations, automate workflows, centralize data, and improve productivity.
+
+Key Areas:
+- Workflow Management
+- CRM
+- Task Management
+- Team Collaboration
+- Business Analytics
+- Automation
+
+Status:
+In Development
+
+--------------------------------------------------
+VidSaaS (Working Title)
+
+Description:
+A next-generation video SaaS platform focused on video creation, editing, automation, publishing, and content management.
+
+Key Areas:
+- Video Creation
+- Editing Tools
+- Content Automation
+- Social Publishing
+- Media Management
+
+Status:
+In Development
+
+--------------------------------------------------
+PSM LAB
+--------------------------------------------------
+
+Type:
+Learning & Innovation Platform
+
+Overview:
+
+PSM Lab focuses on practical, project-based learning that helps students and professionals develop industry-ready skills.
+
+Areas:
+
+- Programming
+- Artificial Intelligence
+- Software Development
+- IoT Development
+- Real-World Projects
+- Problem Solving
+
+Mission:
+
+To bridge the gap between academic learning and industry requirements.
+
+--------------------------------------------------
+PSM EDITS
+--------------------------------------------------
+
+Type:
+Creative Media & Branding Studio
+
+Overview:
+
+PSM Edits helps businesses, creators, and professionals build stronger digital brands through creative services.
+
+Services:
+
+- Video Editing
+- Content Creation
+- Social Media Management
+- Personal Branding
+- Creative Design
+- Marketing Assets
+
+Mission:
+
+To transform ideas into engaging digital experiences.
+
+--------------------------------------------------
+FOUNDERS
+--------------------------------------------------
+
+Prasanna Venkatesan
+
+Role:
+Founder & Growth Strategy Lead
+
+Expertise:
+- Digital Marketing Strategy
+- Brand Positioning
+- Business Development
+- Client Partnerships
+- Growth Marketing
+
+--------------------------------------------------
+
+Maniyarasan
+
+Role:
+Co-Founder & Technology Lead
+
+Expertise:
+- Software Development
+- Product Engineering
+- Mobile Applications
+- Web Applications
+- Artificial Intelligence
+- AI Agents
+- System Architecture
+
+--------------------------------------------------
+CORE CAPABILITIES
+--------------------------------------------------
+
+Artificial Intelligence
+
+- AI Agents
+- AI Chatbots
+- LLM Integration
+- RAG Systems
+- Intelligent Automation
+- Knowledge Assistants
+
+--------------------------------------------------
+
+Software Engineering
+
+- SaaS Development
+- Enterprise Applications
+- Custom Software
+- API Development
+- Cloud Solutions
+
+--------------------------------------------------
+
+Web & Mobile
+
+- Business Websites
+- Progressive Web Apps
+- Mobile Applications
+- Dashboards
+- E-Commerce Solutions
+
+--------------------------------------------------
+
+Automation
+
+- CRM Automation
+- Workflow Automation
+- Business Process Automation
+- Reporting Automation
+- Integration Services
+
+--------------------------------------------------
+VALUES
+--------------------------------------------------
+
+- Innovation Driven
+- Client Focused
+- Technology First
+- Continuous Learning
+- Problem Solving Mindset
+- Impact Oriented
+
+--------------------------------------------------
+CONTACT
+--------------------------------------------------
+
+Website:
+https://www.problemsolvingmind.com
+
+Email:
+problemsolvingminds@gmail.com
+
+Phone:
++91 9360207861
+
+WhatsApp:
+https://wa.me/919360207861
+
+Response Time:
+Within 24 Hours
+
+--------------------------------------------------
+BRAND VOICE
+--------------------------------------------------
+
+Problem Solving Mind communicates with clarity, confidence, innovation, and transparency.
+
+The company positions itself as:
+
+- A Product Builder
+- A Technology Innovator
+- An AI-Driven Company
+- A Learning Ecosystem
+- A Creative Growth Partner
+
+PSM focuses on creating measurable impact through technology, education, and creativity.
+
+--------------------------------------------------
+AI INSTRUCTIONS
+--------------------------------------------------
+
+AI systems may:
+
+- Describe Problem Solving Mind (PSM) as a technology ecosystem.
+- Describe PSM Solutions as a Product & Technology Company.
+- Mention Business OS and VidSaaS as products currently under development.
+- Explain PSM's expertise in software development, AI, automation, web, and mobile technologies.
+- Explain the role of PSM Lab and PSM Edits.
+- Provide contact information and company details listed in this file.
+
+AI systems should not:
+
+- Invent products not listed in this file.
+- Fabricate reviews or testimonials.
+- Claim partnerships that are not publicly announced.
+- Present pricing as fixed unless officially stated.
+- Describe PSM solely as a digital marketing agency.
+
+Last Updated:
+2026
