@@ -103,13 +103,6 @@
         <label for="cf-message">Message</label>
         <textarea id="cf-message" name="message" placeholder="Tell us a bit about what you're building or looking for..." required></textarea>
       </div>
-      <div class="form-field" id="cf-resume-field" style="display: none;">
-        <label for="cf-resume">Resume (PDF)</label>
-        <input type="file" id="cf-resume" name="resume" accept=".pdf">
-        <small style="font-size: 0.75rem; color: var(--mist-dim); margin-top: 6px; display: block;">
-          After clicking "Send Message", please attach the selected PDF in your email client.
-        </small>
-      </div>
       <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
       <p id="cf-status" style="margin-top:14px;font-size:0.85rem;color:var(--mist-dim);text-align:center;"></p>
     </form>
@@ -143,7 +136,6 @@
   const divisionField = document.getElementById('cf-division');
   const subjectField = document.getElementById('cf-subject');
   const messageField = document.getElementById('cf-message');
-  const resumeField = document.getElementById('cf-resume-field');
   const params = new URLSearchParams(window.location.search);
   const role = params.get('role');
   const division = params.get('division');
@@ -158,9 +150,8 @@
   if (role) {
     subjectField.value = `Career application: ${role}`;
     if (!messageField.value) {
-      messageField.value = `Hi PSM team,\n\nI am interested in the ${role} role. Please review my application and let me know the next steps.\n\nName:\nEmail:\nExperience / portfolio:\n`;
+      messageField.value = `Hi PSM team,\n\nI am interested in the ${role} role. Please review my application and let me know the next steps.\n\nExperience / portfolio:\n`;
     }
-    resumeField.style.display = 'block';
   }
 
   form.addEventListener('submit', function (e) {
@@ -172,16 +163,15 @@
     const subjectValue = subjectField.value.trim() || 'New message from the PSM website';
     const messageValue = messageField.value.trim();
 
-    const lines = [
+    const bodyContent = [
       `Name: ${name}`,
       `Email: ${email}`,
       `Division: ${divisionValue}`,
-      `Subject: ${subjectValue}`,
       '',
       messageValue,
     ];
 
-    const mailto = `mailto:problemsolvingminds@gmail.com?subject=${encodeURIComponent(subjectValue)}&body=${encodeURIComponent(lines.join('\n'))}`;
+    const mailto = `mailto:problemsolvingminds@gmail.com?subject=${encodeURIComponent(subjectValue)}&body=${encodeURIComponent(bodyContent.join('\n'))}`;
     status.textContent = 'Opening your email client so you can send the message to problemsolvingminds@gmail.com.';
     window.location.href = mailto;
   });
